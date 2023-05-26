@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+App快速进入 - 快捷方式菜单
+类似于IOS的3D Touch
+配置项单个如下所示，可多配置
+-->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutId="first"
+        android:shortcutLongLabel="@string/first_char"
+        android:shortcutShortLabel="@string/first">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.ac.Home"
+            android:targetPackage="com.example.ac" />
+        <categories android:name="android.shortcut.first" />
+    </shortcut>
+</shortcuts>

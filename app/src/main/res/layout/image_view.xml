@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/p" />
+
+    <!--  ImageButton只能展示图片的Button  -->
+    <ImageButton
+        android:id="@+id/img_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/p" />
+
+    <!--  Button可设置drawableLeft等属性来让图片和文字进行排布  -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/home"
+        android:text="图片在左" />
+
+</LinearLayout>
