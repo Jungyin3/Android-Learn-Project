@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/ac" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app/ac" />
+            <option value="$PROJECT_DIR$/shape" />
           </set>
         </option>
       </GradleProjectSettings>

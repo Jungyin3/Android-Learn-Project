@@ -16,3 +16,4 @@ rootProject.name = "XmlLearn"
 include ':app'
 include ':app:ac'
 include ':ac'
+include ':shape'

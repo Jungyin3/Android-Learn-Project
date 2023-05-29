@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".CheckBoxs">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是一个原生的checkbox" />
+
+    <!--
+        自定义checkbox
+         1、自己拿 选中和未选中的图片 放入@/drawable文件夹
+         2、自定义drawable selector文件 @drawable/checkbox_custom
+         3、android:checked="true" 默认选中
+    -->
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkbox_custom"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:button="@drawable/checkbox_custom"-->
+<!--        android:checked="true"-->
+<!--        android:text="这是一个原生的checkbox" />-->
+</LinearLayout>
