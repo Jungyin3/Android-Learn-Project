@@ -13,4 +13,11 @@ class ViewUtil {
             v.context.getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
         inputManager.hideSoftInputFromWindow(v.windowToken, 0)
     }
+
+    /** 实现静态类方法 */
+    companion object {
+        fun doSomething() {
+
+        }
+    }
 }
