@@ -17,7 +17,7 @@ class ViewUtil {
     /** 实现静态类方法 */
     companion object {
         fun doSomething() {
-
+            Util.doAnything()
         }
     }
 }
